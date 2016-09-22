@@ -76,7 +76,7 @@ public class OlympicController {
 		deportesDTO.setNomdeporte("Futbol");
 		deportesDTO.setFechacreacion("21/08/1895");
 		deportesDTO.setImagedeporte("resources/images/olimpicos1.jpg");
-		deportesDTO.setArenadeporte("Campo de atletismo");
+		deportesDTO.setArenadeporte("cancha de futbol");
 		deportesDTO.setDeportesUrl("https://es.wikipedia.org/wiki/F%C3%BAtbol");
 		deportesDTOList.add(deportesDTO);
 		
@@ -86,7 +86,7 @@ public class OlympicController {
 		deportesDTO2.setImagedeporte("resources/images/olimpicos1.jpg");
 		deportesDTO2.setArenadeporte("Campo de atletismo");
 		deportesDTO2.setDeportesUrl("https://es.wikipedia.org/wiki/F%C3%BAtbol");
-		deportesDTOList.add(deportesDTO);
+		deportesDTOList.add(deportesDTO2);
 		
 		
 		return deportesDTOList;		

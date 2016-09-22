@@ -15,7 +15,7 @@
 			<h1>
 				<a href="#">Olympic Games - Rio 2016</a>
 			</h1>
-			<h2>::PAISES - RIO 2016::</h2>
+			<h2>::ARENAS - RIO 2016::</h2>
 		</div>
 		<form action="#" method="post">
 			<fieldset>
@@ -41,14 +41,16 @@
 	</div>
 				<section class="two_quarter lastbox">
 				 <c:forEach var="dto" items="${command}">
-					<h2 class="title">${dto.nombrepais}</h2>
-					<img class="imgl" src="${dto.imagebandera}" width="130" height="130"
+					<h2 class="title">${dto.nomarena}</h2>
+					<h2 class="title">${dto.fechainaugura}</h2>
+					<img class="imgl" src="${dto.imagearena}" width="130" height="130"
 						alt="">
-					<p>${dto.continentepais}</p>
+					<p>${dto.ciudadarena}</p>
 					<footer class="more"> <a href="">Read
 						More &raquo;</a></footer>
 				</c:forEach>
 				</section>
+				
 			</div>
 			<!-- / content body -->
 		</div>
